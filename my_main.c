@@ -104,8 +104,6 @@ void my_main() {
     g.green = 0;
     g.blue = 0;
 
-    print_pcode();
-
     for (i = 0; i < lastop; i++) {
         printf("%d: ",i);
         switch (op[i].opcode)
